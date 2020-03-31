@@ -1,0 +1,10 @@
+.HeaderWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.HeaderWrapper button {
+  margin: 15px;
+}
+.TableData {
+}

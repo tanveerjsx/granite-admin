@@ -1,0 +1,10 @@
+.loader{
+  type:"Rings";
+    text-align: center;
+         color:"#00BFFF";
+         height:100px;
+         width:100px;
+        
+         /* timeout:3000 */
+         
+}

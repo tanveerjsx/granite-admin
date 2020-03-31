@@ -1,0 +1,21 @@
+.mainWrapper {
+  margin: 30px;
+}
+.secondryWrapper {
+  margin: 10px 50px;
+  padding: 7px;
+  justify-content: center;
+}
+.mainWrapper h1 {
+  color: #5dade2;
+}
+
+.mainWrapper input {
+}
+.mainWrapper img {
+  width: 150px;
+  height: 150px;
+  border-radius: 4px;
+  border: 2px double #eee;
+  padding: 2px;
+}

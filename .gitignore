@@ -1,0 +1,8 @@
+/build
+/node_modules
+package-lock.json
+/build
+/src/store/srvices/cart.js
+/src/store/actions/cartActions.js
+/src/store/reducers/cartReducers.js
+/src/views/Auth/Register.jsx

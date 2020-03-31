@@ -1,0 +1,87 @@
+{
+  "name": "granite-warehouse",
+  "version": "1.0.0",
+  "description": "Granite Warehouse Projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/granitewarehouse/granite-admin.git "
+  },
+  "keywords": [
+    "granite",
+    "granite_warehouse",
+    "warehouse",
+    "marble",
+    "stone",
+    "quartz",
+    "porcelain",
+    "backsplash"
+  ],
+  "author": "Creative Tim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/granitewarehouse/granite-admin.git/issues"
+  },
+  "homepage": "./",
+  "scripts": {
+    "start": "set PORT=4000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css",
+    "minify-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "axios": "^0.19.0",
+    "chart.js": "2.7.3",
+    "ckeditor4-react": "^1.1.0",
+    "classnames": "^2.2.6",
+    "express": "^4.17.1",
+    "history": "^4.10.1",
+    "joi-browser": "^13.4.0",
+    "moment": "2.24.0",
+    "node-sass": "^4.13.1",
+    "nouislider": "13.1.1",
+    "react": "16.8.4",
+    "react-chartjs-2": "2.7.4",
+    "react-copy-to-clipboard": "5.0.1",
+    "react-datepicker": "^2.14.0",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.8.4",
+    "react-google-maps": "9.4.5",
+    "react-icons": "^3.9.0",
+    "react-loader-spinner": "^3.1.5",
+    "react-modal": "^3.11.2",
+    "react-phone-input-2": "^2.12.1",
+    "react-redux": "^7.1.3",
+    "react-router": "^5.1.2",
+    "react-router-dom": "4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.4.0",
+    "react-star-ratings": "^2.3.0",
+    "react-toastify": "^5.5.0",
+    "reactstrap": "7.1.0",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/googlemaps": "3.30.18",
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "16.8.7",
+    "typescript": "3.3.3333"
+  }
+}

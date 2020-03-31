@@ -1,0 +1,17 @@
+.searchButton {
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+.searchProduct {
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.entries {
+  margin: 10px;
+}
+.lable {
+  margin-left: 5px;
+}
